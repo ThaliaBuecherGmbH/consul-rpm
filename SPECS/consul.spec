@@ -1,7 +1,7 @@
 %if 0%{?_version:1}
 %define         _verstr      %{_version}
 %else
-%define         _verstr      1.4.0
+%define         _verstr      1.4.2
 %endif
 
 Name:           consul
@@ -111,6 +111,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thur Jan 31 2019 Thomas Büter <t.bueter@thalia.de>
+- Bump version to 1.4.2
+
 * Fri Nov 30 2018 Michael Mraz <michaelmraz@gmail.com>
 - Bump version to 1.4.0
 
