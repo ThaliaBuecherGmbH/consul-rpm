@@ -111,7 +111,7 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Thur Jan 31 2019 Thomas Büter <t.bueter@thalia.de>
+* Thu Jan 31 2019 Thomas Büter <t.bueter@thalia.de>
 - Bump version to 1.4.2
 
 * Fri Nov 30 2018 Michael Mraz <michaelmraz@gmail.com>
